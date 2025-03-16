@@ -1,0 +1,24 @@
+body{
+    font-size: 30px;
+}
+
+
+
+
+.box1{
+    background-color: blanchedalmond;
+    color: chocolate;
+    font-size: 15px;
+    width: 20em;
+}
+.box2{
+    background-color: rgb(66, 228, 128);
+    color: rgb(230, 83, 78);
+    width: 20rem;
+}
+.box3{
+    background-color: rgb(27, 18, 163);
+    color: rgb(250, 124, 35);
+    font-size: 15px;
+    width: 60%;
+}

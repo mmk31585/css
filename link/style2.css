@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1 {
+    color: beige;
+}
+
+h1:hover {
+    color: red;
+}
+
+a:active {
+    color: bisque;
+}
+
+input:focus {
+    outline-color: blue;
+}

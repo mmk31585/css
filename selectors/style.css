@@ -1,0 +1,16 @@
+/* .main p{
+    color: #00f;
+} */
+
+/* .main > p{
+    color: aquamarine;
+} */
+
+/* h1 + p{
+    color: rgb(12, 85, 255);
+} */
+
+h1 ~ p{
+    color: rgb(169, 221, 64);
+    background-color: #DD40C0;
+}

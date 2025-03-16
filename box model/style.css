@@ -1,0 +1,25 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+.box1 {
+    width: 300px;
+    height: auto;
+    border: 3px solid royalblue;
+    background-color: rgb(177, 177, 236);
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+
+}
+
+.box2 {
+    width: 300px;
+    height: auto;
+    border: 3px solid rgb(219, 241, 54);
+    background-color: rgb(226, 236, 177);
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+    box-sizing: border-box;
+}

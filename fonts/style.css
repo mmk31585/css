@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "black day";
+    src: local("black day"), local("black-day"),
+        url(./blackdayfont/Blackday.ttf) format("truetype"),
+        url(./blackdayfont/Blackday.otf) format("opentype"),
+        url(./blackdayfont/Blackday.woff) format("woff");
+}
+
+body {
+    font-family: "black day";
+    font-size: 30px;
+    letter-spacing: 5px;
+    background-color: rgba(184, 238, 235, 0.266);
+}
+
+.box1 {
+
+    width: fit-content;
+    box-shadow: 2px 2px 15px 3px #80DEEA;
+    margin: 15px auto;
+    background-color: rgba(239, 235, 233, 0.282);
+}

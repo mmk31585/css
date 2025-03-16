@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    background-color: antiquewhite;
+}
+
+.box1{
+
+    background-color: rgb(255, 0, 0);
+    color: brown;
+
+    margin-left: 5px;
+    border-left: 8px solid blue;
+}
+.box2{
+
+    margin: 5px;
+}

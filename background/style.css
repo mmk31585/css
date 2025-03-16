@@ -1,0 +1,15 @@
+/* .page {
+    width: 1000px;
+    height: 1000px;
+    background-size: 65%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(./bg-image/—Pngtree—dark\ abstract\ background\ with\ dark_1155641.png);
+} */
+
+.page{
+    width: 1920px;
+    height: 900px;
+    background: url(./bg-image/—Pngtree—dark\ abstract\ background\ with\ dark_1155641.png) no-repeat center ;
+    background-size: 100%;
+}

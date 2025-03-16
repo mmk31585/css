@@ -1,0 +1,9 @@
+/* ul{
+    list-style-image: url(https://icongr.am/feather/circle.svg?size=10&color=currentColor
+
+    );
+    
+} */
+ul{
+    list-style-image: url(./imag.svg);
+}
