@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(163, 168, 172, 0.548);
+}
+.box{
+    width: auto;
+    height: 500px;
+    background-color: cadetblue;
+    position: relative;
+}
+.box1,
+.box2,
+.box3,
+.box4{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.box1{
+    background-color: rgba(233, 98, 199, 0.438);
+    left: 45%;
+    z-index: 4;
+}
+.box2{
+    background-color: rgba(70, 72, 216, 0.877);
+    right: 45%;
+    z-index: 3;
+}
+.box3{
+    background-color: rgba(225 41 167 / 0.86);
+    z-index: 2;
+    left: 5px;
+}
+.box4{
+    background-color: rgb(66, 236, 143);
+    z-index: 1;
+}

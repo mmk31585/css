@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #EFEBE9;
+}
+.box1,
+.box2,
+.box3,
+.box4 {
+    margin-bottom: 20px;
+    height: 100px;
+}
+
+.box1 {
+    background-color: #FF8F00;
+}
+
+.box2 {
+    background-color: #76FF03;
+    position: relative;
+
+}
+
+.box3 {
+    background-color: #FF5252;
+    position: absolute;
+    left: 5;
+    width: 50%;
+}
+.box4{
+    background: rgba(226, 211, 5, 0.568);
+    position: sticky;
+    top: 0;
+}
+.lay{
+    height: 5000px;
+}
