@@ -20,3 +20,31 @@ a:active {
 input:focus {
     outline-color: blue;
 }
+:root{
+    font-size: 20px;
+}
+.active{
+    display: none;
+}
+.checkbox:checked ~ .active{
+    display: inline;
+}
+/* .item:first-child{
+    color: blue;
+}
+.item:last-child{
+    color: red;
+}
+.item:nth-child(3){
+    color: green;
+} */
+.item:nth-child(even){
+    color: lightblue;
+}
+.list .item:not(.item-d){
+    font-size: 30px;
+}
+.em:empty{
+    border: 5px solid blue;
+    width: auto;
+}

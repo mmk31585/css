@@ -1,0 +1,13 @@
+h1::before{
+    content: "";
+    position: absolute;
+    width: 118px;
+    height: 2px;
+    top: 46px;
+    left: 9px;
+    background-color: #000000;
+}
+.content{
+    background-color: aqua;
+    display: flex;
+}
