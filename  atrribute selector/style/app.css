@@ -1,0 +1,12 @@
+/* [href]{
+    background-color: darkgreen;
+} */
+/* [href="#"]{
+    background-color: darkgreen;
+} */
+/* [href^="https://"] {
+    background-color: aqua;
+} */
+[href$=".com"] {
+    background-color: aqua;
+}
