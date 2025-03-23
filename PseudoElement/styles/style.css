@@ -11,3 +11,7 @@ h1::before{
     background-color: aqua;
     display: flex;
 }
+::selection{
+    background-color: red;
+    color: aliceblue;
+}

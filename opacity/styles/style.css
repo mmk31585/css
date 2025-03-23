@@ -1,0 +1,21 @@
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.box1,
+.box2{
+    background-color: darkcyan;
+    width: 100%;
+}
+.box1{
+    opacity: 0.4;
+}
+.box2{
+    background-color: rgba(0, 139, 139, 0.4);
+    
+}
