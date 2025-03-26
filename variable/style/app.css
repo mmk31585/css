@@ -1,0 +1,28 @@
+:root{
+    --light-blue : #0EA5E9;
+    --shadow-light: 0 2px 8px 1px #CBD5E1;
+    --shadow-dark: 0 2px 5px 0px #6B7280;
+}
+
+html{
+    box-sizing: border-box;   
+}
+*, 
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+.h1{
+    font-size: large;
+    text-align: center;
+    color: var(--light-blue)
+}
+.box{
+    margin: 0 auto;
+    width: 500px;
+    height: 200px;
+    border-radius: 8px;
+    background-color: var(--light-blue);
+    box-shadow: var(--shadow-dark);
+}

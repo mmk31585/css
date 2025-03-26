@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        .poppins-regular {
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body {
+            background-color: #080710;
+        }
+    </style>
+    <title>Login page</title>
+</head>
+
+<body class="poppins-regular">
+    <div class="max-w-dvw h-screen flex justify-center items-center">
+        <div class="w-[500px] h-[600px] relative">
+            <div class="absolute w-[150px] h-[150px] bg-blue-600 rounded-full left-0 top-0 z-0"></div>
+            <div
+                class="absolute w-[380px] h-[430px] bg-white/13 backdrop-blur-sm left-[70px] right-[50px] top-[70px]  z-10 border border-white/15 rounded-[10px] pt-[40px] pr-[35px] pl-[35px] pb-[15px] shadow-sm shadow-black/40">
+                <h1 class="text-white text-center text-[32px] mb-[18px]">Login Here</h1>
+                <div class="grid col-span-full">
+                    <label for="Email or Phone" class="text-[16px] text-white pb-[5px]">Username</label>
+                    <input type="text" placeholder="Email or Phone"
+                        class="bg-white/15 h-[50px] mb-[20px] text-white rounded-[4px] p-[5px]">
+                    <label for="password" class="text-[16px] text-white pb-[5px]">Password</label>
+                    <input type="password" placeholder="Password"
+                        class="bg-white/15 h-[50px] text-white rounded-[4px] p-[5px] ">
+                    <a href="#"
+                        class="w-[310px] h-[48px] bg-white text-center text-[18px] rounded-[5px] mt-[45px] leading-[48px] font-semibold">Log
+                        In</a>
+                </div>
+            </div>
+            <div class="absolute w-[200px] h-[200px] bg-amber-500 rounded-full bottom-0 right-0"></div>
+        </div>
+    </div>
+</body>
+
+</html>
