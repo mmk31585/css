@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Login Page</title>
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            background-color: #080710;
+        }
+
+        input:focus {
+            outline: none;
+            border: 2px solid #fff;
+        }
+
+        .login-box {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+    </style>
+</head>
+
+<body class="flex justify-center items-center h-screen">
+    <div class="relative w-[400px] sm:w-[450px] bg-transparent">
+        <!-- دایره‌های تزئینی -->
+        <div class="absolute w-[120px] h-[120px] bg-blue-600 rounded-full left-[-30px] top-[-30px]"></div>
+        <div class="absolute w-[150px] h-[150px] bg-amber-500 rounded-full right-[-30px] bottom-[-30px]"></div>
+
+        <!-- جعبه لاگین -->
+        <div class="login-box relative z-10 rounded-lg border border-white/20 p-8 shadow-lg">
+            <h1 class="text-white text-center text-3xl font-semibold mb-6">Login Here</h1>
+
+            <!-- فرم ورود -->
+            <form class="space-y-4">
+                <div>
+                    <label for="username" class="text-white block text-sm font-medium">Username</label>
+                    <input id="username" type="text" placeholder="Email or Phone"
+                        class="w-full bg-white/15 text-white rounded-md px-4 py-3 mt-1 transition focus:ring-2 focus:ring-blue-400">
+                </div>
+
+                <div>
+                    <label for="password" class="text-white block text-sm font-medium">Password</label>
+                    <input id="password" type="password" placeholder="Password"
+                        class="w-full bg-white/15 text-white rounded-md px-4 py-3 mt-1 transition focus:ring-2 focus:ring-blue-400">
+                </div>
+
+                <button type="submit"
+                    class="w-full bg-blue-500 text-white text-lg font-semibold py-3 rounded-md mt-4 hover:bg-blue-600 transition">
+                    Log In
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
